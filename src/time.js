@@ -1,4 +1,8 @@
 /**
+ * 格式化时间
+ */
+
+/**
  * @param {integer} timestamp
  * @param {string} format  [YYYY-MM-DD HH:mm:ss]
  */
