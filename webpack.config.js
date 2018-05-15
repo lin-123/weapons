@@ -23,7 +23,7 @@ const webpackConfig = {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/',
     libraryTarget: "umd",
-    library: "vueSensors"
+    library: "weapons"
   },
   plugins: []
 };

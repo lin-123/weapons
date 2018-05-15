@@ -1,15 +1,11 @@
 # weapons of kakaka
 
-## TODO
-- 工具方法整理
-- 按需引入功能
-
 ## Introduction
 - weapons by daily
 
 ## API
 
-### timeformat
+### time
 
 #### formatByTimestamp
   - arguments
@@ -26,4 +22,35 @@
     ss    秒  00
     ```
 
+  - usage
+    ```javascript
+    import {formatByTimestamp} from 'weapons/time'
+    // 2018-2-1 10:00:000
+    formatByTimestamp(Date.now(), 'YYYY-MM-DD HH:mm:ss')
+    ```
+
+### object
+
+#### getType
+
+  - arguments
+    - {*} val
+  - usage
+    ```javascript
+    import {getType} from 'weapons/object'
+    //  Object
+    getType({})
+    ```
+
+#### getVal
+
+  - arguments
+    - {object} obj
+    - {string} key  'a.b.c'
+  - usage
+    ```javascript
+    import {getVal} from 'weapons/object'
+    // 1
+    getVal({a: {b: 1}}, 'a.b')
+    ```
 ### scroll
