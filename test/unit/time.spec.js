@@ -1,4 +1,4 @@
-import {formatByTimestamp} from '../../src/time'
+import {formatByTimestamp} from '../../src'
 
 describe('time', () => {
   describe('formatByTimestamp', () => {

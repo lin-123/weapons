@@ -27,5 +27,3 @@
     ```
 
 ### scroll
-
-<!-- To scrollIntoView -->

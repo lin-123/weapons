@@ -19,7 +19,7 @@ export const scrollTo = (el, {value, arg}) => {
   })
 }
 
-let scrollMap = new window.Map()
+let scrollMap = new Map()
 export const scroll = {
   bind(el, {value}) {
     const {watcher} = value
